@@ -1,13 +1,15 @@
 # NodeJS Authentication App
-> A complete authentication app with login, logout, register, forget password, email verification(for added security), and access control. Can be used as starter for other Node.JS applications. using Node.js, Express, Passport, JWT, Mongoose, and more. 
+> A complete user authentication app with login, logout, register, forget password, email verification(for added security), and access control. Can be used as starter for other Node.JS applications. using Node.js, Express, Passport, JWT, Mongoose, and more. 
 
 ## Web App Link
-https://node-js-authentication-qwph.onrender.com
+https://users-authetication.onrender.com
 
 ## Screenshots
-![Screenshot (260)](https://github.com/simpleesarath/NodeJs-Authetication/assets/88574803/5b26cbc7-295c-4320-9cd9-34fafefbc7a8)
-![Screenshot (257)](https://github.com/simpleesarath/NodeJs-Authetication/assets/88574803/5f59cf8e-1527-41ff-a9c9-7965434ce1d1)
-![Screenshot (256)](https://github.com/simpleesarath/NodeJs-Authetication/assets/88574803/134fc6c8-97a6-46db-a7ae-48ba44aee7af)
+![Screenshot (262)](https://github.com/simpleesarath/NodeJs-Authetication/assets/88574803/af74c9e5-6959-45b5-bf55-85e4bf8e42ea)
+![Screenshot (266)](https://github.com/simpleesarath/NodeJs-Authetication/assets/88574803/06ddd7b9-793a-41fb-8711-e8c65c96d1de)
+![image](https://github.com/simpleesarath/NodeJs-Authetication/assets/88574803/06d74847-9364-4416-b5c5-28e34cca1106)
+
+
 
 
 
@@ -36,7 +38,7 @@ https://node-js-authentication-qwph.onrender.com
 
 ##### Into the project directory
 
-`cd Nodejs_Authentication-main`
+`cd Nodejs-Authentication-main`
 
 ##### Installing NPM dependencies
 
