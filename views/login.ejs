@@ -1,0 +1,54 @@
+<style>
+    body {
+      background-image: linear-gradient(35deg,#D4145A , #FBB03B);
+    }
+    
+    img{
+        border-radius: 50%;
+        border: 5px solid rgb(0, 255, 8);
+    }
+    .card {
+        border: none;
+    }
+    h2{
+        color:black;
+    }
+    a{
+        color:black;
+    }
+
+</style>
+
+<div class="row mt-5" style="background-color:transparent;">
+    <div class="col-md-6 m-auto" style="background-color:transparent;">
+        <div class="card card-body text-center" style="background-color:transparent;">
+            <h1 class="mb-3">
+                <img src="../assets/images/verified.jpeg" alt="icon" width="20%"/><br>
+               <h5>welcome to the Authentication project</h5> 
+
+            </h1>
+            <h2>
+                Login
+            </h2>
+            <%- include ("./messages") %>
+            <form action="/auth/login" method="POST">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Enter Email" />
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" class="form-control"
+                        placeholder="Enter Password" />
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Login</button>
+            </form>
+            <p class="mt-4">
+                New User? <a href="/auth/register">Register</a>
+            </p>
+            <p>
+                Forgot Password? <a href="/auth/forgot">Reset</a>
+            </p>
+        </div>
+    </div>
+</div>
